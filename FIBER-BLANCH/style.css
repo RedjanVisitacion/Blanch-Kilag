@@ -737,3 +737,37 @@ h1,h2,h3,h4,h5,h6{
         font-size: 14px;
     }
 }
+
+
+.social-status {
+  display: flex;
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: center;
+  position: absolute;
+  margin-left: 990px;
+  
+}
+
+.social-profile-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-profile-list a {
+  background-color: rgb(224, 49, 78);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-profile-list a:hover {
+  background-color: rgb(155, 135, 145);
+  transform: scale(1.1);
+}
